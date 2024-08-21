@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <>
       <section className="aboutSection">
-        <h1 className="pageTitle">About Us</h1>
+        <h1 className="text-white text-6xl">About Us</h1>
         {/* <div className="content first sm:block hidden">
           <div className="description">
             <h2>Know more about Group 3</h2>
@@ -93,55 +93,61 @@ export const About = () => {
             </div>
         </section>
 
-        <div className="content second">
-          <div className="textBox">
-            <p>
-              We are a team of dedicated Software students in various fields and areas plus with varrying sets of skills in this big and ever-growing universe/world of software development
-            </p>
-            <div>
-              {/* <h2>The Team</h2> */}
-              <ul>
-                <li>Agani Daniel Strong</li>
-                <li>Angoda Brian Angoda</li>
-                <li>Gasasira Joshua</li>
-                <li>Nankunda Josephine</li>
-              </ul>
-            </div>
-          </div>
-          <div className="description">
-            <h2>Meet the Developers</h2>
-          </div>
+        {/* <!-- component -->
+        <!-- This is an example component --> */}
+
+        <div class="p-4 text-gray-600">
+          <h1 class="mb-8 text-center text-3xl font-bold text-indigo-900">This is - what we intend to do :</h1>
+
+          <ul class="grid place-content-center sm:grid-cols-2 gap-8">
+            <li class="flex">
+              <div class="px-4 text-5xl font-extralight text-indigo-700">01.</div>
+              <div>
+                <div class="text-xl font-bold text-indigo-800">Research</div>
+                <p class="max-w-xs py-2 text-sm text-indigo-900">We intend to collect data and insights, analyze
+                  them then take the time to learn about our project objectives, ask the right questions to understand problem domain.</p>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="px-4 text-5xl font-extralight text-indigo-700">02.</div>
+              <div>
+                <div class="text-xl font-bold text-indigo-800">Strategy</div>
+                <p class="max-w-xs py-2 text-sm text-indigo-900">Solutions are born from proper research, hard work, and
+                  strong strategy. We intend build data-driven roadmaps for every step of the way to success.
+                </p>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="px-4 text-5xl font-extralight text-indigo-700">03.</div>
+              <div>
+                <div class="text-xl font-bold text-indigo-800">Design</div>
+                <p class="max-w-xs py-2 text-sm text-indigo-900">We intend to design the right solution for our problem at hand. We will
+                  craft beautiful, intuitive, and user-friendly interfaces that are easy to use and easy to maintain.
+                </p>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="px-4 text-5xl font-extralight text-indigo-700">04.</div>
+              <div>
+                <div class="text-xl font-bold text-indigo-800">Development</div>
+                <p class="max-w-xs py-2 text-sm text-indigo-900">We intend to build the right solution for your business. We
+                  will craft beautiful, intuitive, and user-friendly interfaces that are easy to use and easy to maintain.
+                </p>
+              </div>
+            </li>
+            <li class="flex">
+              <div class="px-4 text-5xl font-extralight text-indigo-700">05.</div>
+              <div>
+                <div class="text-xl font-bold text-indigo-800">Deployment</div>
+                <p class="max-w-xs py-2 text-sm text-indigo-900">We intend to build the right solution for project. We will
+                  craft beautiful, intuitive, and user-friendly interfaces that are easy to use and easy to maintain and make it available through deployment.
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
 
-        <div className="content first">
-          <div className="description">
-            <h2>Mission-Vision</h2>
-          </div>
-          <div className="textBox">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-        </div>
+        
       </section>
     </>
   );

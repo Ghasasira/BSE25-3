@@ -6,7 +6,8 @@
 
 :root {
   --primary-color: #6fb3b8;
-  --secondary-color: #badfe7;
+  /* --primary-color: #f7f7f7; */
+  --secondary-color: #f7f7f7;
   --background-color: #f6f6f2;
   --white-color: #f2f3fc;
   --whiteborder-color: #e6e6e6;

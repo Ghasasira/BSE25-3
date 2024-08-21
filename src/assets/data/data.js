@@ -7,22 +7,22 @@ export const nav = [
   {
     id: 2,
     text: "Agani",
-    url: "/about",
+    url: "/#",
   },
   {
     id: 3,
     text: "Angoda",
-    url: "/about",
+    url: "/#",
   },
   {
     id: 3,
     text: "Gasasira",
-    url: "/about",
+    url: "/#",
   },
   {
     id: 3,
     text: "Nankunda",
-    url: "/about",
+    url: "/#",
   },
   {
     id: 6,
@@ -106,6 +106,5 @@ export const blog = [
     category: ["Final Year Project", "Project Planning"],
     cover: "../images/blogs/chill.jpg",
     date: "August 19, 2024",
-  },
-  
+  }, 
 ];
