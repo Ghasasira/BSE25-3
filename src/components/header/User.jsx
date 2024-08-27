@@ -101,10 +101,10 @@ export const User = () => {
                 </button>
               </Link> */}
 
-              <button className="box">
+              {/* <button className="box">
                 <RiContactsBookLine className="icon" />
                 <h4>Contact</h4>
-              </button>
+              </button> */}
             </div>
           )}
         </>

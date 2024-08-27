@@ -30,11 +30,11 @@ export const nav = [
     url: "/about",
   },
   
-  {
-    id: 7,
-    text: "contact",
-    url: "/contact",
-  },
+  // {
+  //   id: 7,
+  //   text: "contact",
+  //   url: "/contact",
+  // },
 ];
 
 export const category = [
