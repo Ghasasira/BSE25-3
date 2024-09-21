@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import {
-  RiChatUploadLine,
-  RiContactsBookLine,
   RiMenuLine,
+  RiCloseLine
 } from "react-icons/ri";
 import { BiHome, BiInfoCircle, BiUser } from "react-icons/bi";
 import { nav } from "../../assets/data/data";
 
 export const User = () => {
   const [profileOpen, setProfileOpen] = useState(false);
+  const [navSelected, setNavSelected] = useState(1);
 
   const close = () => {
     setProfileOpen(false);
@@ -20,7 +20,10 @@ export const User = () => {
         <ul>
           {nav.map((link) => (
             <li key={link.id}>
-              <Link to={link.url}>{link.text}</Link>
+              {/*  className={navSelected===link.id?"underline text-xl":null} */}
+              <Link to={link.url} className={navSelected===link.id?"text-xl text-blue-600":null}
+              onClick={() =>setNavSelected(link.id)}
+              >{link.text}</Link>
             </li>
           ))}
         </ul>
@@ -32,7 +35,7 @@ export const User = () => {
               className="img"
               onClick={() => setProfileOpen(!profileOpen)}
             >
-              <RiMenuLine />
+              {profileOpen?<RiCloseLine size={25}/>:<RiMenuLine />}
             </button>
           </div>
 
@@ -59,28 +62,29 @@ export const User = () => {
                 </button>
               </Link>
 
-              <Link to="/about">
+              <Link to={`/member/Joshua`}>
+              {/* to={`/details/${item.id}`}  */}
                 <button className="box">
                   <BiUser class="icon" />
                   <h4>Gasasira</h4>
                 </button>
               </Link>
 
-              <Link to="/about">
+              <Link to="/member/Daniel">
                 <button className="box">
                   <BiUser class="icon" />
                   <h4>Agani</h4>
                 </button>
               </Link>
 
-              <Link to="/about">
+              <Link to="/member/Brian">
                 <button className="box">
                   <BiUser class="icon" />
                   <h4>Angoda</h4>
                 </button>
               </Link>
 
-              <Link to="/about">
+              <Link to="/member/Josephine">
                 <button className="box">
                   <BiUser class="icon" />
                   <h4>Nankunda</h4>
@@ -93,18 +97,6 @@ export const User = () => {
                   <h4>About</h4>
                 </button>
               </Link>
-
-              {/* <Link to="/create">
-                <button className="box">
-                  <RiChatUploadLine class="icon" />
-                  <h4>Create Post</h4>
-                </button>
-              </Link> */}
-
-              {/* <button className="box">
-                <RiContactsBookLine className="icon" />
-                <h4>Contact</h4>
-              </button> */}
             </div>
           )}
         </>

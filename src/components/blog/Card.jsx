@@ -4,11 +4,12 @@ import { blog } from "../../assets/data/data";
 import { Link } from "react-router-dom";
 import { AiOutlineClockCircle } from "react-icons/ai";
 
-export const Card = () => {
+export const Card = ({title}) => {
+
   return (
     <>
       <div className="progressTitleContainer">
-        <h1 className="text-2xl ">Project Updates</h1>
+        <h1 className="text-2xl ">{title}</h1>
       </div>
       <section className="">
       <div className="flex flex-col md:grid md:grid-cols-3 gap-4 m-4 md:m-10">
