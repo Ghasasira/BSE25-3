@@ -21,13 +21,6 @@ export const ProjectSummary =({projectData})=>{
                         {projectData.techStack.map((item)=>{
                            return <div>{item}</div>
                         })}
-                        {/* <div className="">
-                            C++
-                        </div>
-                        <div>Dart/Flutter</div>
-                        <div>JavaScript</div>
-                        <div>PHP</div>
-                        <div>GoLang</div> */}
                     </div>
                 </div>
             </div>

@@ -3,13 +3,14 @@ import {Props} from "react";
 
 export const ProfileTile = (props) => {
     // const user = {user};
+    const skills = props.user.skills || [];
     return(
         <>
             <div className="container-fluid py-5" id="about">
                 <div className="container">
                     <div className="md:flex md:flex-row">
-                        <div className="sm:w-full md:w-[30%] m-5 p-4">
-                            <img className="img-fluid rounded w-100" src={props.user.picture} alt=""/>
+                        <div className="sm:w-full md:w-[30%] max-h-[280px] m-5 p-4">
+                            <img className="img-fluid rounded w-[300px] max-h-[250px] object-cover" src={props.user.picture} alt=""/>
                         </div>
                         <div className="sm:w-full md:w-[60%]">
                             <h1 className="mb-4">{props.user.name}</h1>
@@ -24,7 +25,7 @@ export const ProfileTile = (props) => {
                                 <div className="md:ml-10">
                                 <div className="col-sm-6 py-2"><h6>Phone: <span className="font-bold">{props.user.phone}</span></h6></div>
                                     <div className="col-sm-6 py-2"><h6>Email: <span className="font-bold">{props.user.email}</span></h6></div>
-                                    <div className="col-sm-6 py-2"><h6>Skills: <span className="">............</span></h6></div>
+                                    <div className="col-sm-6 py-2"><h6>Skills: <span className="font-bold">{skills.length > 0 ? skills.join(", ") : "No skills available"}</span></h6></div>
                                 </div>
                             </div>
                         </div>
