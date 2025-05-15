@@ -107,12 +107,118 @@ export const blog = [
   },
 
   {
-    id: 2,
+    id: 21,
     title: "Planning for Concept Paper",
     desc: "This was the first step to completting the 2nd task at hand and this was coming up with a concept paper for the chosen project and here we as a group looked at online content and drafted a plan and design of how our paper is to b, whats to be left out, why, what must be in  etc.",
     category: ["Final Year Project", "Project Planning"],
     cover: "../images/blogs/chill.jpg",
     date: "August 19, 2024",
     completedBy:"Group",
-  }, 
+  },{
+    id: 2,
+    title: "Android Tech Stack Research",
+    desc: "Researched Unity’s Android build requirements (min SDK version 21, touch input handling).",
+    category: ["Research", "Android"],
+    cover: "../images/blogs/android-research.jpg",
+    date: "August 19, 2024",
+    completedBy: "Group"
+  },
+
+  // --- Phase 2: Unity Development (Android) ---
+  {
+    id: 3,
+    title: "Unity Android Project Setup",
+    desc: "Configured Unity for Android: installed SDK/NDK, set bundle ID (com.team4.stirunner), and enabled IL2CPP for performance.",
+    category: ["Unity", "Android"],
+    cover: "../images/blogs/unity-android-setup.jpg",
+    date: "August 22, 2024",
+    completedBy: "Group"
+  },
+  {
+    id: 4,
+    title: "Touch Controls Implementation",
+    desc: "Added swipe-up (jump), swipe-down (slide), and tap (use power-up) controls optimized for mobile screens.",
+    category: ["Unity", "Android"],
+    cover: "../images/blogs/touch-controls.jpg",
+    date: "August 25, 2024",
+    completedBy: "Group"
+  },
+  {
+    id: 5,
+    title: "Mobile-Optimized UI",
+    desc: "Designed responsive UI for 16:9 and 18:9 screens. Added pause button and score display.",
+    category: ["Unity", "UI"],
+    cover: "../images/blogs/mobile-ui.jpg",
+    date: "August 28, 2024",
+    completedBy: "Group"
+  },
+  {
+    id: 6,
+    title: "Ad Integration (Unity Ads)",
+    desc: "Integrated rewarded ads for extra lives and interstitial ads on game over.",
+    category: ["Unity", "Monetization"],
+    cover: "../images/blogs/ads-integration.jpg",
+    date: "September 1, 2024",
+    completedBy: "Group"
+  },
+
+  // --- Phase 3: Backend (Laravel) ---
+  {
+    id: 7,
+    title: "Laravel Score API (Android)",
+    desc: "Built REST API for Android app to submit scores. Added device ID hashing to prevent spam.",
+    category: ["Laravel", "API"],
+    cover: "../images/blogs/score-api.jpg",
+    date: "September 5, 2024",
+    completedBy: "Group"
+  },
+  {
+    id: 8,
+    title: "Offline Mode Sync",
+    desc: "Implemented local SQLite storage in Unity to cache scores when offline, with auto-sync to Laravel when online.",
+    category: ["Unity", "Android"],
+    cover: "../images/blogs/offline-sync.jpg",
+    date: "September 8, 2024",
+    completedBy: "Group"
+  },
+
+  // --- Phase 4: Art & Assets ---
+  {
+    id: 9,
+    title: "Android Asset Optimization",
+    desc: "Compressed sprites (Crunch for PNGs) and reduced audio bitrate to minimize APK size (<50MB).",
+    category: ["Art", "Android"],
+    cover: "../images/blogs/asset-optimization.jpg",
+    date: "September 12, 2024",
+    completedBy: "Group"
+  },
+  {
+    id: 10,
+    title: "STI Fact Pop-ups",
+    desc: "Added 30+ STI tips with animations (e.g., 'Get tested every 3 months if sexually active!').",
+    category: ["Content", "Education"],
+    cover: "../images/blogs/fact-popups.jpg",
+    date: "September 15, 2024",
+    completedBy: "Group"
+  },
+
+  // --- Phase 5: Testing & QA ---
+  {
+    id: 11,
+    title: "Android Device Testing",
+    desc: "Tested on 5+ devices (Samsung, Pixel, Xiaomi) to fix resolution/touch issues.",
+    category: ["Testing", "Android"],
+    cover: "../images/blogs/device-testing.jpg",
+    date: "September 20, 2024",
+    completedBy: "Group"
+  },
+  {
+    id: 12,
+    title: "Battery/Performance Profiling",
+    desc: "Optimized game loop to reduce CPU usage (<15%) and battery drain.",
+    category: ["Optimization", "Android"],
+    cover: "../images/blogs/performance.jpg",
+    date: "September 25, 2024",
+    completedBy: "Group"
+  },
 ];
