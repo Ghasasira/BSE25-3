@@ -36,10 +36,10 @@ export const projectDetails={
   title:"An Interactive Game To Spread STD Awareness And Prevention",
   description:"An educative and informative game on STIs/STDs. African themed and targeted for people of different demographics ",
   problemStatement:" The rising prevalence of sexually transmitted diseases (STDs) highlights a critical need for more engaging and accessible educational tools. Traditional methods of raising awareness and promoting prevention, such as pamphlets or lectures, often fail to effectively engage young audiences. An interactive, educational game can provide a more compelling and immersive way to inform individuals, particularly teens and young adults, about the risks, symptoms, and preventive measures related to STDs, encouraging safer behaviors and reducing the spread of infections.",
-  techStack:["Flutter", "Unity","C++", "Blender", "MySQL"],
+  techStack:["Laravel", "PHP", "Unity","C++", "Blender", "MySQL"],
   currentState:{
-    title:"Data Collection",
-    description:"Collecting Data and doing research on the problem",
+    title:"Testing",
+    description:"Testing the final apk on multiole devicesand with different users",
   }
 }
 
@@ -119,7 +119,7 @@ export const blog = [
     title: "Android Tech Stack Research",
     desc: "Researched Unity’s Android build requirements (min SDK version 21, touch input handling).",
     category: ["Research", "Android"],
-    cover: "../images/blogs/android-research.jpg",
+    cover: "../images/blogs/chill.jpg",
     date: "August 19, 2024",
     completedBy: "Group"
   },
@@ -130,7 +130,7 @@ export const blog = [
     title: "Unity Android Project Setup",
     desc: "Configured Unity for Android: installed SDK/NDK, set bundle ID (com.team4.stirunner), and enabled IL2CPP for performance.",
     category: ["Unity", "Android"],
-    cover: "../images/blogs/unity-android-setup.jpg",
+    cover: "../images/blogs/chill.jpg",
     date: "August 22, 2024",
     completedBy: "Group"
   },
@@ -139,7 +139,7 @@ export const blog = [
     title: "Touch Controls Implementation",
     desc: "Added swipe-up (jump), swipe-down (slide), and tap (use power-up) controls optimized for mobile screens.",
     category: ["Unity", "Android"],
-    cover: "../images/blogs/touch-controls.jpg",
+    cover: "../images/blogs/chill.jpg",
     date: "August 25, 2024",
     completedBy: "Group"
   },
@@ -148,7 +148,7 @@ export const blog = [
     title: "Mobile-Optimized UI",
     desc: "Designed responsive UI for 16:9 and 18:9 screens. Added pause button and score display.",
     category: ["Unity", "UI"],
-    cover: "../images/blogs/mobile-ui.jpg",
+    cover: "../images/blogs/chill.jpg",
     date: "August 28, 2024",
     completedBy: "Group"
   },
@@ -157,7 +157,7 @@ export const blog = [
     title: "Ad Integration (Unity Ads)",
     desc: "Integrated rewarded ads for extra lives and interstitial ads on game over.",
     category: ["Unity", "Monetization"],
-    cover: "../images/blogs/ads-integration.jpg",
+    cover: "../images/blogs/chill.jpg",
     date: "September 1, 2024",
     completedBy: "Group"
   },
@@ -168,7 +168,7 @@ export const blog = [
     title: "Laravel Score API (Android)",
     desc: "Built REST API for Android app to submit scores. Added device ID hashing to prevent spam.",
     category: ["Laravel", "API"],
-    cover: "../images/blogs/score-api.jpg",
+    cover: "../images/blogs/chill.jpg",
     date: "September 5, 2024",
     completedBy: "Group"
   },
@@ -177,7 +177,7 @@ export const blog = [
     title: "Offline Mode Sync",
     desc: "Implemented local SQLite storage in Unity to cache scores when offline, with auto-sync to Laravel when online.",
     category: ["Unity", "Android"],
-    cover: "../images/blogs/offline-sync.jpg",
+    cover: "../images/blogs/chill.jpg",
     date: "September 8, 2024",
     completedBy: "Group"
   },
@@ -188,7 +188,7 @@ export const blog = [
     title: "Android Asset Optimization",
     desc: "Compressed sprites (Crunch for PNGs) and reduced audio bitrate to minimize APK size (<50MB).",
     category: ["Art", "Android"],
-    cover: "../images/blogs/asset-optimization.jpg",
+    cover: "../images/blogs/chill.jpg",
     date: "September 12, 2024",
     completedBy: "Group"
   },
@@ -197,7 +197,7 @@ export const blog = [
     title: "STI Fact Pop-ups",
     desc: "Added 30+ STI tips with animations (e.g., 'Get tested every 3 months if sexually active!').",
     category: ["Content", "Education"],
-    cover: "../images/blogs/fact-popups.jpg",
+    cover: "../images/blogs/chill.jpg",
     date: "September 15, 2024",
     completedBy: "Group"
   },
@@ -208,7 +208,7 @@ export const blog = [
     title: "Android Device Testing",
     desc: "Tested on 5+ devices (Samsung, Pixel, Xiaomi) to fix resolution/touch issues.",
     category: ["Testing", "Android"],
-    cover: "../images/blogs/device-testing.jpg",
+    cover: "../images/blogs/chill.jpg",
     date: "September 20, 2024",
     completedBy: "Group"
   },
@@ -217,7 +217,7 @@ export const blog = [
     title: "Battery/Performance Profiling",
     desc: "Optimized game loop to reduce CPU usage (<15%) and battery drain.",
     category: ["Optimization", "Android"],
-    cover: "../images/blogs/performance.jpg",
+    cover: "../images/blogs/chill.jpg",
     date: "September 25, 2024",
     completedBy: "Group"
   },
