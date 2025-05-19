@@ -86,11 +86,11 @@ export const teamMembers=[
   student_number:"210070843",
   registration_number:"21/U/0843",
   email:"josenankuda02@gmail.com",
-  skills:['Flutter','PHP',"Dart","Laravel","javaScript",'Nodejs','Reactjs',"Django","GoLang","Python", "MySQL"],
+  skills:['Flutter','PHP',"Dart","Laravel","javaScript",'Nodejs','Reactjs',"Django","Python", "MySQL"],
   role:"Software Engineer",
   phone:"0754753624",
   shortStory: "A software engineer with a passion for building innovative solutions having a strong background in various languages",
-  picture:"../images/placeholder.jpeg",
+  picture:"../images/Jojo.jpg",
 
 }
 ]
