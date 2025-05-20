@@ -1,6 +1,7 @@
 import React from "react";
 // import { ProfileTile } from "../../components/profile/ProfileTab";
 import { Card } from "../../components/blog/Card";
+import { blog } from "../../assets/data/data";
 import { ProjectSummary } from "../../components/project-summary/ProjectSummary";
 import { teamMembers, projectDetails } from "../../assets/data/data";
 
@@ -12,7 +13,7 @@ export const Home = () => {
       {/* <ProfileTile user={user}/> */}
       <ProjectSummary projectData={projectDetails}/>
 
-      <Card title="Project Updates"/>
+      <Card title="Project Updates" blogs={blog}/>
     </>
   );
 };

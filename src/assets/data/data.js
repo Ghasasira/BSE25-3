@@ -394,15 +394,6 @@ export const blog = [
     completedBy: "Group"
   },
   {
-    id: 34,
-    title: "App Store Submission Preparation",
-    desc: "Prepared all necessary assets and metadata for Google Play and Apple App Store submissions.",
-    category: ["Deployment"],
-    cover: "../images/blogs/chill.jpg",
-    date: "April 1, 2024",
-    completedBy: "Brian"
-  },
-  {
     id: 35,
     title: "Project Documentation Completion",
     desc: "Finalized all project documentation including technical specifications, user manuals, and API docs.",

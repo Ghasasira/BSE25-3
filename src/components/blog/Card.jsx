@@ -1,10 +1,9 @@
 import React from "react";
 import "./blog.css";
-import { blog } from "../../assets/data/data";
 import { Link } from "react-router-dom";
-import { AiOutlineClockCircle } from "react-icons/ai";
+// import { AiOutlineClockCircle } from "react-icons/ai";
 
-export const Card = ({title}) => {
+export const Card = ({title, blogs}) => {
 
   return (
     <>
@@ -13,7 +12,7 @@ export const Card = ({title}) => {
       </div>
       <section className="">
       <div className="flex flex-col md:grid md:grid-cols-3 gap-4 m-4 md:m-10">
-  {blog.map((item) => (
+  {blogs.map((item) => (
     <Link to={`/details/${item.id}`} key={item.id}>
       {/* START Card component */}
       <article className="bg-white shadow-2xl rounded-2xl p-4 md:p-5">
